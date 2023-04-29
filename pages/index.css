@@ -1,0 +1,107 @@
+.page{
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkred;
+    -webkit-text-stroke: .3px gold;
+    line-height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000;
+    background-image: url(../images/sithEmpire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.nav__links{
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav__link{
+    color: #ff0000;
+    -webkit-text-stroke-color: gold;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav__link:hover{
+    color: #fff;
+    cursor: pointer;
+    -webkit-text-stroke-color: red;
+}
+
+.header__title{
+max-width: 544px;
+font-size: 66px;
+line-height: 76px;
+font-weight: 700;
+color: #ff0000;
+-webkit-text-stroke-color: gold;
+padding: 0;
+margin-bottom: 0;
+margin-top: 150px;
+
+}
+
+.header__description{
+    max-width: 532px;          
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    
+}
+
+.header__image{
+    display: flex;
+    border-radius: 10px;
+    z-index:1;
+    position: absolute;
+    max-width: 500px;
+    top: 135px;
+    right: 400px;
+}
+
+.house{
+    
+  
+}
+
+.house__content{
+
+}
+
+.house__banner{
+
+}
+
+.house__title{
+
+}
+
+.house__history{
+
+}
