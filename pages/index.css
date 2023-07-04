@@ -12,7 +12,8 @@
     background-color: #000;
     background-image: url(../images/sithEmpire.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: top;
 }
 
 .header{
@@ -80,28 +81,102 @@ margin-top: 150px;
     border-radius: 10px;
     z-index:1;
     position: absolute;
-    max-width: 500px;
+    max-width: 30%;
     top: 135px;
     right: 400px;
 }
 
 .house{
-    
-  
+    padding-top: 50px;
+    padding-bottom: 50px;
+ text-align: center;
+  background-image: url(../images/HouseKraytDragonBanner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
 }
 
 .house__content{
-
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
 }
 
 .house__banner{
-
+    display: block;
+    margin-bottom: 10px; 
+width: 100%;
+max-height: 200px;
+object-fit: cover;
 }
 
 .house__title{
-
+font-size: 60px;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 
 .house__history{
+font-size: 30px;
+line-height: 1.2;
+text-align: justify;
+}
+
+.house__current-history{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.house__castleimg{
+    margin-left: 10px;
+}
+
+.house__current-content{
+
+}
+
+.legion{
+
+}
+
+.legion__content{
+
+}
+
+.legion__title{
+
+}
+
+.legion__subtitle{
+
+}
+
+.legion__creed{
+
+}
+
+.cards{
+
+}
+
+.card{
+
+}
+
+.card__content{
+
+}
+
+.card__image{
+
+}
+
+.card__title{
+
+}
+
+.card__text{
 
 }
